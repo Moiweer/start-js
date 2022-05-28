@@ -26,13 +26,132 @@
 // add(5, 10, 15);
 
 
-function makeMessage(name, price) {
-    let message = (`You picked ${name}, price per item is ${price} credits`);
+// function makeMessage(name, price) {
+//     let message = (`You picked ${name}, price per item is ${price} credits`);
 
-    return message;
+//     return message;
     
-}
-console.log (makeMessage('Radar', 6150));
-console.log(makeMessage('Scanner', 3500));
-console.log(makeMessage('Reactor', 8000));
-console.log(makeMessage('Engine', 4070));
+// }
+// console.log (makeMessage('Radar', 6150));
+// console.log(makeMessage('Scanner', 3500));
+// console.log(makeMessage('Reactor', 8000));
+// console.log(makeMessage('Engine', 4070));
+// function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
+//   let message;
+//   // Change code below this line
+//     const totalPrice = (pricePerDroid * orderedQuantity);
+    
+//   Change code above this line
+//  if (totalPrice <= customerCredits){ 
+//      message = `You ordered ${orderedQuantity} droids, you have ${customerCredits - totalPrice} credits left`;
+//      return message;
+//   } else {
+//     message = 'Insufficient funds!';
+//   }
+//   return message;
+// }
+// console.log(makeTransaction(3000, 5, 23000));
+// console.log(makeTransaction(1000, 3, 15000));
+// console.log(makeTransaction(5000, 10, 8000));
+// console.log(makeTransaction(2000, 8, 10000));
+// console.log(makeTransaction(500, 10, 5000));
+
+
+
+
+
+// let cost;
+// const subscription = "premium";
+
+// if (subscription === "free") {
+//   cost = 0;
+// } else if (subscription === "pro") {
+//   cost = 100;
+// } else if (subscription === "premium") {
+//   cost = 500;
+// } else {
+//   console.log(`Invalid subscription type - ${subscription}`);
+// }
+
+// console.log(cost); // 500
+
+
+
+
+
+// function checkStorage(available, ordered) {
+//   let message;
+//   // Change code below this line
+// if (ordered === 0){ 
+//      message = "There are no products in the order!";
+//      return message;
+//   } else if(ordered > available){
+//     message = 'Your order is too large, there are not enough items in stock!';
+//   }
+//   else {
+//     message = 'The order is accepted, our manager will contact you';
+//   }
+//   // Change code above this line
+//   return message;
+// }
+// console.log(checkStorage(100, 50));
+// console.log(checkStorage(100, 130));
+// console.log(checkStorage(70, 0));
+// console.log(checkStorage(200, 20));
+// console.log(checkStorage(200, 250));
+// console.log(checkStorage(150, 0));
+
+
+
+
+// function isNumberInRange(start, end, number) {
+//   const isInRange = number >=start && number <=end; // Change this line
+
+//   return isInRange;
+// }
+// console.log(isNumberInRange(10, 30, 17));
+// console.log(isNumberInRange(10, 30, 5));
+// console.log(isNumberInRange(20, 50, 24));
+// console.log(isNumberInRange(20, 50, 76));
+
+
+
+
+// function checkIfCanAccessContent(subType) {
+//   const canAccessContent = subType==="pro" || subType==="vip"; // Change this line
+
+//   return canAccessContent;
+// }
+// console.log(checkIfCanAccessContent("pro"));
+// console.log(checkIfCanAccessContent("starter"));
+// console.log(checkIfCanAccessContent("vip"));
+// console.log(checkIfCanAccessContent("free"));
+
+
+// function isNumberNotInRange(start, end, number) {
+//   const isInRange = number >= start && number <= end;
+//   const isNotInRange = !isInRange; // Change this line
+
+//   return isNotInRange;
+// }
+// console.log(isNumberNotInRange(10, 30, 17));
+// console.log(isNumberNotInRange(20, 50, 24));
+// console.log(isNumberNotInRange(20, 50, 76));
+
+
+
+// 25
+
+// function checkStorage(available, ordered) {
+// let message;
+// message = ordered > available ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you";
+//   // Change code above this line
+//   return message;
+// }
+// console.log(checkStorage(100, 50));
+// console.log(checkStorage(100, 130));
+// console.log(checkStorage(200, 20));
+// console.log(checkStorage(200, 150));
+// console.log(checkStorage(150, 180));
+
+// 26
