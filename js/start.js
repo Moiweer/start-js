@@ -182,36 +182,121 @@
 
 
 // 29
-function getShippingCost(country) {
-  let message;
-  let price;
-  // Change code below this line
-switch (country) {
-  case ("China"):
-  price = 100;
-   message = `Shipping to ${country} will cost ${price} credits`;
-  break;
-  case ("Chile"):
-  price = 250;
-  message = `Shipping to ${country} will cost ${price} credits`;
-  break;
-  case ("Australia"):
-  price = 170;
-  message = `Shipping to ${country} will cost ${price} credits`;
-  break;
-  case ("Jamaica"):
-  price = 120;
-  message = `Shipping to ${country} will cost ${price} credits`;
-  break;
-  default: 
-  message = "Sorry, there is no delivery to your country";
+// function getShippingCost(country) {
+//   let message;
+//   let price;
+//   // Change code below this line
+// switch (country) {
+//   case ("China"):
+//   price = 100;
+//    message = `Shipping to ${country} will cost ${price} credits`;
+//   break;
+//   case ("Chile"):
+//   price = 250;
+//   message = `Shipping to ${country} will cost ${price} credits`;
+//   break;
+//   case ("Australia"):
+//   price = 170;
+//   message = `Shipping to ${country} will cost ${price} credits`;
+//   break;
+//   case ("Jamaica"):
+//   price = 120;
+//   message = `Shipping to ${country} will cost ${price} credits`;
+//   break;
+//   default: 
+//   message = "Sorry, there is no delivery to your country";
  
-}
-  return message;
-}
-console.log(getShippingCost("Australia"));
-console.log(getShippingCost("Germany"));
-console.log(getShippingCost("China"));
-console.log(getShippingCost("Chile"));
-console.log(getShippingCost("Jamaica"));
-console.log(getShippingCost("Sweden"));
+// }
+//   return message;
+// }
+// console.log(getShippingCost("Australia"));
+// console.log(getShippingCost("Germany"));
+// console.log(getShippingCost("China"));
+// console.log(getShippingCost("Chile"));
+// console.log(getShippingCost("Jamaica"));
+// console.log(getShippingCost("Sweden"));
+
+
+
+// 30
+// function getNameLength(name) {
+  
+//   const message = `Name ${name} is ${name.length} characters long`; // Change this line
+
+//   return message;
+// }
+
+// console.log(getNameLength("Poly"));
+// console.log(getNameLength("Harambe"));
+// console.log(getNameLength("Billy"));
+// console.log(getNameLength("Joe"));
+
+// 31
+// const courseTopic = "JavaScript essentials";
+// // Change code below this line
+
+// const courseTopicLength = courseTopic.length;
+// const firstElement = courseTopic[0];
+// const lastElement = courseTopic[courseTopic.length-1];
+// const lastElement = courseTopic[courseTopic.length-1];
+
+
+// console.log(courseTopic.length);
+// console.log("JavaScript essentials"[0]);
+// console.log("JavaScript essentials"[20]);
+
+// 32
+// function getSubstring(string, length) {
+// let substring = (0, getSubstring.length);
+
+// return substring = string.slice(0, length);
+// }
+
+// console.log(getSubstring("Hello world", 3));
+// console.log(getSubstring("Hello world", 6));
+// console.log(getSubstring("Hello world", 8));
+// console.log(getSubstring("Hello world", 11));
+// console.log(getSubstring("Hello world", 0));
+
+// 33
+
+// function formatMessage(message, maxLength) {
+//   let result;
+ 
+//     result = message.length <= maxLength ? message : message.slice(0, maxLength) + "...";
+
+//   return result;
+// }
+// console.log(formatMessage("Curabitur ligula sapien", 16));
+// console.log(formatMessage("Curabitur ligula sapien", 23));
+// console.log(formatMessage("Vestibulum facilisis purus nec", 20));
+// console.log(formatMessage("Vestibulum facilisis purus nec", 30));
+// console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15));
+
+// // 34
+
+// function normalizeInput(input) {
+//   const normalizedInput = input.toLowerCase(); // Change this line
+
+//   return normalizedInput;
+// }
+
+
+
+// 35
+
+// function checkForName(fullName, name) {
+//  const result = fullName.includes(name); // Change this line
+//   return result;
+// }
+
+// 36
+// function checkForSpam(message) {
+//   let result;
+//   // Change code below this line
+// result = message.toLowerCase("sale").includes("sale") || message.toLowerCase("spam").includes("spam");
+//   // Change code above this line
+//   return result;
+// }
+// console.log(checkForSpam("Latest technology news"));
+
